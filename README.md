@@ -31,7 +31,7 @@ The dataset consists of two main components:
 - **Two Datasets**: One for participants in the United States (`US.csv`) and one for South Korea (`Korea.csv`). This project uses the US dataset.
 - **Time Alignment**: Sensor data is collected 9 times per second, while interaction data is reported every 15 minutes. The sensor data is aggregated to match the 15-minute windows.
 
-For more details on the dataset, visit the [Dryad repository](https://doi.org/10.5061/dryad.tb2rbp078).
+For more details on the dataset and download, visit the (https://zenodo.org/records/10015074).
 
 ---
 
