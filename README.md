@@ -75,44 +75,6 @@ Models are evaluated using:
 - **AUC-ROC**: Measures how well the model distinguishes between classes.
 - **Confusion Matrix**: Shows which behaviors are often confused with others.
 
----
-
-## **How to Use This Repository**
-
-### **Requirements**
-- Python 3.x
-- Libraries: `pandas`, `numpy`, `scikit-learn`, `lightgbm`, `xgboost`, `matplotlib`, `seaborn`
-
-### **Installation**
-1. Clone the repository:
-   ```
-   git clone https://github.com/your-username/human-robot-interaction-prediction.git
-   cd human-robot-interaction-prediction
-   ```
-2. Install the required libraries:
-
- ```
- Copy
- pip install -r requirements.txt
-```
-
-### **Running the Code**
-Place the dataset (US.csv) in the project directory.
-
-Run the Jupyter Notebook or Python script:
-
-```
-Copy
-python ML.py
-The script will:
-```
-
-### **Preprocess the data**
-
-Train and evaluate the models.
-
-Generate visualizations (e.g., accuracy comparison, confusion matrices).
-
 ### **Results**
 Model Performance: The best-performing model is LightGBM, achieving ~88% accuracy.
 
